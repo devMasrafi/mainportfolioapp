@@ -6,11 +6,11 @@ module.exports = {
     "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
+    fontFamily:{
+      'Roboto': ['"Roboto", serif']
+    },
     extend: {
-      fontFamily:{
-        'RaleWay': ['"Raleway", sans-serif'],
-        'roboto' : ['"Roboto", serif']
-      },
+      
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
