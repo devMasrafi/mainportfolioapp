@@ -4,6 +4,18 @@ This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-
 
 First, run the development server:
 
+<!-- color -->
+
+## color used
+
+mainBg: F0F3E5
+pastelSky: 9EFCF1
+darkPasteBlue: 00364B
+someBlack: 00364B
+
+
+
+
 ```bash
 npm run dev
 # or

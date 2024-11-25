@@ -7,9 +7,17 @@ module.exports = {
   ],
   theme: {
     extend: {
+      fontFamily:{
+        'RaleWay': ['"Raleway", sans-serif'],
+        'roboto' : ['"Roboto", serif']
+      },
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
+        'mainColor': '#F0F3E5',
+        'mainWhite': "#FFFFFF",
+        'skyblue': '#9EFCF1',
+        'darkBlue': '#00364B'
       },
     },
   },
