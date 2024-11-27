@@ -4,6 +4,7 @@ import Image from "next/image";
 import WebDefaultBgColor from "./components/webDefaultColor/page";
 import MyProjects from "./components/myProjects/page";
 import AboutMe from "./components/aboutMe/page";
+import FaqSection from "./components/faqSection/page";
 
 export default function Home() {
   return (
@@ -35,8 +36,8 @@ export default function Home() {
         <AboutMe />
       </div>
 
-      <div>faq
-
+      <div>
+          <FaqSection/>
       </div>
     </main>
   );
