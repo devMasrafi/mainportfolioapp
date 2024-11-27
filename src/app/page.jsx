@@ -11,12 +11,14 @@ export default function Home() {
       {/* hero */}
       <div>
         <div>
-          <div className="text-center uppercase md:mt-[12rem] lg:mt-[15rem] ">
-            <h2 className=" text-6xl font-bold italic ">your imagination</h2>
+          <div className="text-center uppercase md:mt-[12rem] lg:mt-[15rem] lg:mb-[10rem] ">
+            <h2 className=" text-6xl font-bold italic ">
+              web developer
+            </h2>
             <p className="relative text-lg underline underline-offset-[0.5rem] my-3">
               lets give your imagination a way to make reality
             </p>
-            <h2 className=" text-6xl font-bold italic ">my creation</h2>
+            <h2 className=" text-6xl font-bold italic ">and designer</h2>
           </div>
         </div>
       </div>
@@ -24,16 +26,18 @@ export default function Home() {
       {/* skill motion bar */}
 
       {/* projects */}
-      <div className=" h-screen ">
+      {/* <div className="lg:h-screen lg:mt-[18rem] ">
         <MyProjects />
-      </div>
+      </div> */}
 
       {/* about me */}
       <div className="">
         <AboutMe />
       </div>
 
-      <div>something else</div>
+      <div>faq
+
+      </div>
     </main>
   );
 }

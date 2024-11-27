@@ -1,10 +1,12 @@
 "use client";
 
+import { motion } from "framer-motion";
+
 const AboutMe = () => {
   const aboutMeInfo = [
     {
       title: "Who I Am",
-      body: "My name is Masrafi Mondol a student of Green University of Bangladesh",
+      body: "My name is Masrafi Mondol, a student of Green University of Bangladesh",
     },
     {
       title: "What I Do",
@@ -20,7 +22,7 @@ const AboutMe = () => {
     <main className="bg-mainWhite pt-[4rem]">
       <section className="container mx-auto">
         <div className="flex justify-between mt-[8rem]">
-          {/* left side */}
+          {/* Left Side */}
           <div className="w-1/3 h-[25rem] sticky top-[13rem] flex justify-center items-center">
             <div>
               <div>
@@ -44,14 +46,21 @@ const AboutMe = () => {
             </div>
           </div>
 
-          {/* right side */}
+          {/* Right Side with Animations */}
           <div className="md:w-[25rem] lg:w-[30rem] overflow-hidden">
-            {aboutMeInfo.map((items, index) => {
+            {aboutMeInfo.map((item, index) => {
               return (
-                <section key={index} className="lg:h-[30rem] lg:mt-[4rem]">
-                  <h2 className="text-3xl font-semibold">{items.title}</h2>
-                  <p className="text-lg">{items.body}</p>
-                </section>
+                <motion.section
+                  key={index}
+                  className="lg:h-[40rem] lg:mt-[4rem]"
+                  initial={{ opacity: 0, y: 50 }} 
+                  whileInView={{ opacity: 1, y: 0 }} 
+                  viewport={{ amount: 0.5 }}
+                  transition={{ duration: 0.5 }}
+                >
+                  <h2 className="text-3xl font-semibold">{item.title}</h2>
+                  <p className="text-lg">{item.body}</p>
+                </motion.section>
               );
             })}
           </div>

@@ -10,3 +10,17 @@
   --foreground: #171717;
 }
 
+/* Hide scrollbar but enable scrolling */
+.scroll-container {
+  overflow: auto;
+}
+
+.scroll-container::-webkit-scrollbar {
+  display: none; /* Hide scrollbar */
+}
+
+/* For Firefox */
+.scroll-container {
+  scrollbar-width: none; /* Hide scrollbar */
+  -ms-overflow-style: none; /* Internet Explorer 10+ */
+}
