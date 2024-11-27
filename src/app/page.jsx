@@ -1,3 +1,5 @@
+'use client'
+
 import Image from "next/image";
 import WebDefaultBgColor from "./components/webDefaultColor/page";
 import MyProjects from "./components/myProjects/page";
@@ -9,7 +11,7 @@ export default function Home() {
       {/* hero */}
       <div>
         <div>
-          <div className="text-center uppercase lg:mt-[15rem] ">
+          <div className="text-center uppercase md:mt-[12rem] lg:mt-[15rem] ">
             <h2 className=" text-6xl font-bold italic ">your imagination</h2>
             <p className="relative text-lg underline underline-offset-[0.5rem] my-3">
               lets give your imagination a way to make reality
@@ -21,20 +23,17 @@ export default function Home() {
 
       {/* skill motion bar */}
 
-    {/* projects */}
-
+      {/* projects */}
+      <div className=" h-screen ">
+        <MyProjects />
+      </div>
 
       {/* about me */}
-      <div className="mt-[40rem]">
+      <div className="">
         <AboutMe />
       </div>
 
-      <div>
-        something else
-      </div>
-
-      {/* projects */}
-      {/* <MyProjects/> */}
+      <div>something else</div>
     </main>
   );
 }
