@@ -1,7 +1,6 @@
 "use client";
 
 import { useEffect, useState } from "react";
-import CommonBtn from "../commonButton/page";
 import Link from "next/link";
 
 const NavBar = () => {
@@ -38,13 +37,13 @@ const NavBar = () => {
           )}
         </div>
         <div className="flex lg:gap-x-8 items-center">
-          <ul className="flex lg:gap-x-6 lg:text-xl lg:uppercase  ">
-            <li className={`lg:italic lg:font-semibold hover:lg:not-italic ${
+          <ul className="flex lg:gap-x-6 lg:text-xl lg:uppercase ">
+            <li className={`cursor-pointer lg:font-semibold  ${
               scrollValue ? 'text-white' : ''
             } `}>
               works
             </li>
-            <li className={`lg:italic lg:font-semibold hover:lg:not-italic ${
+            <li className={`cursor-pointer lg:font-semibold  ${
               scrollValue ? 'text-white' : ''
             } `}>
               blog
