@@ -6,10 +6,19 @@ module.exports = {
     "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
+    screens: {
+  		sm: '320px',
+  		md: '768px',
+  		lg: '1280px'
+  	},
+  	fontFamily: {
+  		Roboto: ['Roboto", serif']
+  	},
     extend: {
       colors: {
-        background: "var(--background)",
-        foreground: "var(--foreground)",
+        mainColor: '#F0F3E5',
+  			skyblue: '#9EFCF1',
+  			darkBlue: '#00364B',
       },
     },
   },
