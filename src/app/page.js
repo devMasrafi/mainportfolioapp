@@ -1,5 +1,6 @@
 "use client";
 
+import Footer from "@/components/Footer";
 import SocialHandels from "@/components/social/pages";
 import { useEffect } from "react";
 
@@ -65,7 +66,10 @@ const Page = () => {
                     <span className="text-orange-400"> web designer</span> and
                     <span className="text-orange-500"> developer</span>, and I
                     code vanilla
-                    <span className="text-orange-300"> &#40;most of my time&#41;</span>
+                    <span className="text-orange-300">
+                      {" "}
+                      &#40;most of my time&#41;
+                    </span>
                   </h2>
                 </div>
               </div>
@@ -100,6 +104,10 @@ const Page = () => {
             </div>
           </div>
         </div>
+      </section>
+
+      <section>
+        <Footer />
       </section>
     </main>
   );

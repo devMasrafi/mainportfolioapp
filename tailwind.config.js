@@ -20,6 +20,7 @@ module.exports = {
         mainColor: '#F0F3E5',
   			skyblue: '#9EFCF1',
   			darkBlue: '#00364B',
+        DarkBlack: '#00171F'
       },
     },
   },
