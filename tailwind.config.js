@@ -12,7 +12,8 @@ module.exports = {
   		lg: '1280px'
   	},
   	fontFamily: {
-  		Roboto: ['Roboto", serif']
+  		'RobotoFont': ['Roboto", serif'],
+      'RaleWayFont': ['"Raleway", serif']
   	},
     extend: {
       colors: {

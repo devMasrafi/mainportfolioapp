@@ -42,8 +42,8 @@ const NavBar = () => {
         </div>
 
         {/* Links */}
-        <div className="flex lg:gap-x-8 items-center">
-          <ul className="flex lg:gap-x-6 lg:text-xl lg:uppercase">
+        <div className="flex lg:gap-x-8 items-center font-RaleWayFont">
+          <ul className="flex lg:gap-x-6 lg:text-xl ">
             <li
               className={`cursor-pointer lg:font-semibold ${
                 scrollValue ? "text-white" : ""
@@ -60,7 +60,7 @@ const NavBar = () => {
             </li>
           </ul>
           <button
-            className={`lg:py-2 lg:px-6 lg:rounded-lg lg:text-xl lg:uppercase lg:font-semibold hover:bg-darkBlue transition-all duration-300 ease-in-out hover:text-skyblue ${
+            className={`lg:py-2 lg:px-6 lg:rounded-lg lg:text-xl lg:font-semibold hover:bg-darkBlue transition-all duration-300 ease-in-out hover:text-skyblue ${
               scrollValue ? "bg-skyblue text-darkBlue" : "text-darkBlue"
             }`}
           >

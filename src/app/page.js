@@ -29,7 +29,7 @@ const Page = () => {
         <div className="container mx-auto">
           <div className="text-center uppercase lg:mt-[15rem]">
             <h2 className="lg:text-6xl font-bold italic">web developer</h2>
-            <p className="relative lg:text-lg underline underline-offset-[0.5rem] lg:my-3">
+            <p className="relative lg:text-lg underline underline-offset-[0.5rem] lg:my-3 font-RaleWayFont">
               lets give your imagination a way to make reality
             </p>
             <h2 className="lg:text-6xl font-bold italic">and designer</h2>
@@ -57,10 +57,10 @@ const Page = () => {
               </div>
               <div className="relative lg:w-[22rem] lg:mt-[20rem]">
                 <div className="bg-mainColor absolute left-[-2rem] p-3 rounded-lg">
-                  <h3 className="lg:text-2xl lg:font-bold tracking-wider">
+                  <h3 className="lg:text-2xl lg:font-bold tracking-wider font-RaleWayFont">
                     Hello there!
                   </h3>
-                  <h2 className="lg:text-4xl lg:font-bold">
+                  <h2 className="lg:text-4xl lg:font-bold font-RaleWayFont">
                     My name is Masrafi Mondol. I am a
                     <span className="text-orange-400"> web designer</span> and
                     <span className="text-orange-500"> developer</span>, and I
@@ -77,7 +77,7 @@ const Page = () => {
               <h2 className="lg:text-3xl lg:font-bold capitalize tracking-wider lg:pb-4">
                 my journey
               </h2>
-              <p className="lg:text-lg">
+              <p className="lg:text-lg font-RaleWayFont">
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa
                 illo dolore quaerat? Eum officiis voluptates, a tempore quae
                 nobis corrupti nihil porro voluptatem aperiam dolores eos
